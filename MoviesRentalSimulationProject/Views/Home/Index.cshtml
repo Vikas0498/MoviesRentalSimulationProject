@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Models.Movie>
+@{ ViewData["Title"] = "Index";
+                Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<h2>List of Items</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(m => m.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.NumberInStocks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.RealeaseDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.Genre.GenreName)
+        </th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(m => item.Name)
+    </td>
+
+    <td>
+        @Html.DisplayFor(m => item.Price)
+    </td>
+    <td>
+        @Html.DisplayFor(m => item.NumberInStocks)
+    </td>
+    <td>
+        @Html.DisplayFor(m => item.RealeaseDate)
+    </td>
+    <td>
+        @Html.DisplayFor(m => item.Genre.GenreName)
+    </td>
+    <td>
+        <p>
+            <a asp-action="Create" class="btn btn-primary btn-sm">Rent</a>
+        </p>
+    </td>
+  
+</tr>}
+
+</table>

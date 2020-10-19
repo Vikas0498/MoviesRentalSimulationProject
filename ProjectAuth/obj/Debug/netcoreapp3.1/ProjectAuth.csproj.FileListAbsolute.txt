@@ -1,0 +1,9 @@
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\obj\Debug\netcoreapp3.1\ProjectAuth.csprojAssemblyReference.cache
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\obj\Debug\netcoreapp3.1\ProjectAuth.AssemblyInfoInputs.cache
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\obj\Debug\netcoreapp3.1\ProjectAuth.AssemblyInfo.cs
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\obj\Debug\netcoreapp3.1\ProjectAuth.RazorTargetAssemblyInfo.cache
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\obj\Debug\netcoreapp3.1\staticwebassets\ProjectAuth.StaticWebAssets.Manifest.cache
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\ProjectAuth\obj\Debug\netcoreapp3.1\staticwebassets\ProjectAuth.StaticWebAssets.xml
