@@ -22,11 +22,12 @@ namespace Authenticate1Api
         }
         public Authenticate1 AuthenticateUser(Authenticate1 userdetail)
         {
-            var userdetailslist = _userdetails.GetAll();
-            foreach (var i in userdetailslist)
+
+            if (userdetail.Username == "Vikas" && userdetail.Pass == 1234 && userdetail.Id == 1)
             {
-                if (i.Username == userdetail.Username && i.Pass == userdetail.Pass)
-                    return userdetail;
+
+                var user = new Authenticate1 { Username = userdetail.Username, Pass = userdetail.Pass, Id = userdetail.Id };
+                return user;
             }
             return null;
         }

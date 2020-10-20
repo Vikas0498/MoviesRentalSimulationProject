@@ -54,12 +54,15 @@ namespace MoviesRentalSimulationProject.Controllers
 
         }
         [HttpGet]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(int id)
         {
+            
             _log4net.Info("Data Arrived");
-           
 
-            return View();
+            MovieRent obj = new MovieRent();
+            obj.MovieId = id;
+
+            return View(obj);
             
         }
         public IActionResult GetToken()
@@ -104,16 +107,19 @@ namespace MoviesRentalSimulationProject.Controllers
             // TempData["Token"];
            
 
-            _log4net.Info("Data Sent");
+           
             HttpClient client = obj.RentingInfo();
             var postTask = client.PostAsJsonAsync<MovieRent>($"api/MovieRentingApi", rent);
             postTask.Wait();
             var result = postTask.Result;
             if (result.IsSuccessStatusCode)
             {
+                _log4net.Info("Data Sent");
                 return RedirectToAction("Index");
+                
             }
             return Content("Not Working");
+
 
         }
 

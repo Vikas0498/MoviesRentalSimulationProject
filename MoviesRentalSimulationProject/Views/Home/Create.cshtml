@@ -5,19 +5,15 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
 
-<h4>MovieRent</h4>
+
+<h1>MovieRent</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Insert">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="CustomerId" class="control-label"></label>
-                <input asp-for="CustomerId" class="form-control" />
-                <span asp-validation-for="CustomerId" class="text-danger"></span>
-            </div>
+
             <div class="form-group">
                 <label asp-for="CustomerName" class="control-label"></label>
                 <input asp-for="CustomerName" class="form-control" />
@@ -29,22 +25,22 @@
                 <span asp-validation-for="ReturnDate" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="MovieName" class="control-label"></label>
+                <input asp-for="MovieName" class="form-control"  />
+                <span asp-validation-for="MovieName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Quantity" class="control-label"></label>
                 <input asp-for="Quantity" class="form-control" />
                 <span asp-validation-for="Quantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="MovieName" class="control-label"></label>
-                <input asp-for="MovieName" class="form-control" />
-                <span asp-validation-for="MovieName" class="text-danger"></span>
+                <label asp-for="@Model.MovieId" class="control-label"></label>
+                <input asp-for="@Model.MovieId" class="form-control" readonly />
+                <span asp-validation-for="@Model.MovieId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="MovieId" class="control-label"></label>
-                <input asp-for="MovieId" class="form-control" />
-                <span asp-validation-for="MovieId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Confirm Rent" class="btn btn-primary" />
             </div>
         </form>
     </div>

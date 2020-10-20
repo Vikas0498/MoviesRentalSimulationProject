@@ -183,3 +183,4 @@ C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulation
 C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject\obj\Debug\netcoreapp3.1\MoviesRentalSimulationProject.csproj.CoreCompileInputs.cache
 C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject\obj\Debug\netcoreapp3.1\MoviesRentalSimulationProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject\obj\Debug\netcoreapp3.1\MoviesRentalSimulationProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_rentbuttonpartialview.cshtml.g.cs

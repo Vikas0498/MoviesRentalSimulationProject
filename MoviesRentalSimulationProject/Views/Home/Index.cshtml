@@ -14,13 +14,13 @@
             @Html.DisplayNameFor(m => m.Price)
         </th>
         <th>
-            @Html.DisplayNameFor(m => m.NumberInStocks)
-        </th>
-        <th>
             @Html.DisplayNameFor(m => m.RealeaseDate)
         </th>
         <th>
             @Html.DisplayNameFor(m => m.Genre.GenreName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.Id)
         </th>
 
     </tr>
@@ -35,20 +35,18 @@
         @Html.DisplayFor(m => item.Price)
     </td>
     <td>
-        @Html.DisplayFor(m => item.NumberInStocks)
-    </td>
-    <td>
         @Html.DisplayFor(m => item.RealeaseDate)
     </td>
     <td>
         @Html.DisplayFor(m => item.Genre.GenreName)
     </td>
     <td>
-        <p>
-            <a asp-action="Create" class="btn btn-primary btn-sm">Rent</a>
-        </p>
+        @Html.DisplayFor(m => item.Id)
     </td>
-  
+    <td><partial name="_rentbuttonpartialview" model="item.Id" />
+
+    </td>
+
 </tr>}
 
 </table>

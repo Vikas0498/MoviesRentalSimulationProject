@@ -257,3 +257,207 @@ INFO  11:31:54 Hosting environment: Development
 INFO  11:31:54 Hosting environment: Development
 INFO  11:31:54 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
 INFO  11:31:54 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:15:09 Application started. Press Ctrl+C to shut down.
+INFO  12:15:09 Application started. Press Ctrl+C to shut down.
+INFO  12:15:09 Hosting environment: Development
+INFO  12:15:09 Hosting environment: Development
+INFO  12:15:09 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:15:09 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:15:23 Data Arrived
+INFO  12:16:56 Application started. Press Ctrl+C to shut down.
+INFO  12:16:56 Application started. Press Ctrl+C to shut down.
+INFO  12:16:56 Hosting environment: Development
+INFO  12:16:56 Hosting environment: Development
+INFO  12:16:56 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:16:56 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:17:11 Data Arrived
+INFO  12:18:23 Application started. Press Ctrl+C to shut down.
+INFO  12:18:23 Application started. Press Ctrl+C to shut down.
+INFO  12:18:23 Hosting environment: Development
+INFO  12:18:23 Hosting environment: Development
+INFO  12:18:23 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:18:23 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:18:36 Data Arrived
+INFO  12:18:48 Data Arrived
+INFO  12:18:54 Data Arrived
+INFO  12:19:19 Data Sent
+INFO  12:32:39 Application started. Press Ctrl+C to shut down.
+INFO  12:32:40 Application started. Press Ctrl+C to shut down.
+INFO  12:32:40 Hosting environment: Development
+INFO  12:32:40 Hosting environment: Development
+INFO  12:32:40 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  12:32:40 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:10:37 Application started. Press Ctrl+C to shut down.
+INFO  01:10:37 Application started. Press Ctrl+C to shut down.
+INFO  01:10:37 Hosting environment: Development
+INFO  01:10:37 Hosting environment: Development
+INFO  01:10:37 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:10:37 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:10:57 Data Arrived
+INFO  01:11:16 Data Arrived
+INFO  01:14:04 Application started. Press Ctrl+C to shut down.
+INFO  01:14:04 Application started. Press Ctrl+C to shut down.
+INFO  01:14:04 Hosting environment: Development
+INFO  01:14:04 Hosting environment: Development
+INFO  01:14:04 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:14:04 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:14:41 Application started. Press Ctrl+C to shut down.
+INFO  01:14:41 Application started. Press Ctrl+C to shut down.
+INFO  01:14:41 Hosting environment: Development
+INFO  01:14:41 Hosting environment: Development
+INFO  01:14:41 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:14:41 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:15:33 Data Arrived
+INFO  01:16:04 Data Arrived
+INFO  01:23:47 Application started. Press Ctrl+C to shut down.
+INFO  01:23:48 Application started. Press Ctrl+C to shut down.
+INFO  01:23:48 Hosting environment: Development
+INFO  01:23:48 Hosting environment: Development
+INFO  01:23:48 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:23:48 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+ERROR 01:23:57 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot determine the 'href' attribute for <a>. The following attributes are mutually exclusive:
+asp-route
+asp-controller, asp-action
+asp-page, asp-page-handler
+   at Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Process(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.TagHelpers.TagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Home_Index.ExecuteAsync() in C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject\Views\Home\Index.cshtml:line 44
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:23:57 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot determine the 'href' attribute for <a>. The following attributes are mutually exclusive:
+asp-route
+asp-controller, asp-action
+asp-page, asp-page-handler
+   at Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Process(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.TagHelpers.TagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Home_Index.ExecuteAsync() in C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject\Views\Home\Index.cshtml:line 44
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:26:51 Application started. Press Ctrl+C to shut down.
+INFO  01:26:51 Application started. Press Ctrl+C to shut down.
+INFO  01:26:51 Hosting environment: Development
+INFO  01:26:51 Hosting environment: Development
+INFO  01:26:51 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:26:51 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:27:12 Data Arrived
+INFO  01:33:29 Application started. Press Ctrl+C to shut down.
+INFO  01:33:29 Application started. Press Ctrl+C to shut down.
+INFO  01:33:29 Hosting environment: Development
+INFO  01:33:29 Hosting environment: Development
+INFO  01:33:29 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:33:29 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:33:45 Data Arrived
+INFO  01:37:17 Application started. Press Ctrl+C to shut down.
+INFO  01:37:17 Application started. Press Ctrl+C to shut down.
+INFO  01:37:17 Hosting environment: Development
+INFO  01:37:17 Hosting environment: Development
+INFO  01:37:17 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:37:17 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:37:37 Data Arrived
+INFO  01:47:25 Application started. Press Ctrl+C to shut down.
+INFO  01:47:25 Application started. Press Ctrl+C to shut down.
+INFO  01:47:25 Hosting environment: Development
+INFO  01:47:25 Hosting environment: Development
+INFO  01:47:25 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:47:25 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:47:41 Data Arrived
+INFO  01:48:45 Data Arrived
+INFO  01:49:34 Data Sent
+INFO  01:51:29 Data Arrived
+INFO  01:53:09 Application started. Press Ctrl+C to shut down.
+INFO  01:53:09 Application started. Press Ctrl+C to shut down.
+INFO  01:53:09 Hosting environment: Development
+INFO  01:53:09 Hosting environment: Development
+INFO  01:53:09 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:53:09 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:53:27 Data Arrived
+INFO  01:54:43 Application started. Press Ctrl+C to shut down.
+INFO  01:54:43 Application started. Press Ctrl+C to shut down.
+INFO  01:54:43 Hosting environment: Development
+INFO  01:54:43 Hosting environment: Development
+INFO  01:54:43 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:54:43 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:54:57 Data Arrived
+INFO  01:55:56 Data Arrived
+INFO  01:55:58 Data Arrived
+INFO  01:55:59 Data Arrived
+INFO  01:56:43 Application started. Press Ctrl+C to shut down.
+INFO  01:56:43 Application started. Press Ctrl+C to shut down.
+INFO  01:56:43 Hosting environment: Development
+INFO  01:56:43 Hosting environment: Development
+INFO  01:56:43 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:56:43 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  01:56:54 Data Arrived
+INFO  01:58:03 Data Sent
+INFO  01:58:17 Data Arrived
+INFO  01:58:49 Data Arrived
+INFO  02:03:43 Application started. Press Ctrl+C to shut down.
+INFO  02:03:43 Application started. Press Ctrl+C to shut down.
+INFO  02:03:43 Hosting environment: Development
+INFO  02:03:43 Hosting environment: Development
+INFO  02:03:43 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  02:03:43 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  02:03:57 Data Arrived
+INFO  02:04:36 Data Arrived
+INFO  02:04:52 Data Arrived
+INFO  02:06:16 Application started. Press Ctrl+C to shut down.
+INFO  02:06:16 Application started. Press Ctrl+C to shut down.
+INFO  02:06:16 Hosting environment: Development
+INFO  02:06:16 Hosting environment: Development
+INFO  02:06:16 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  02:06:16 Content root path: C:\Users\pande\source\repos\MoviesRentalSimulationProject\MoviesRentalSimulationProject
+INFO  02:06:28 Data Arrived

@@ -74,8 +74,8 @@ namespace Authenticate1Api.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
-        private Authenticate1 AuthenticateUser(Authenticate1 userdetail)
+      */
+       /* private Authenticate1 AuthenticateUser(Authenticate1 userdetail)
         {
             
             if (userdetail.Username == "Vikas" && userdetail.Pass == 1234 && userdetail.Id == 1)
@@ -90,8 +90,7 @@ namespace Authenticate1Api.Controllers
                 if (i.Username == userdetail.Username && i.Pass == userdetail.Pass)
                     return userdetail;
             }
-            return null;
+            return null;*/
 
-        }*/
+        }
     }
-}
